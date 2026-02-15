@@ -1,0 +1,42 @@
+{
+    "meta": {
+        "title": "SLOPISM: A manifesto for judgment in the flood",
+        "author": "Juan (curation) + VOICE-Δ",
+        "date": "2026-02-16",
+        "generation_disclosure": "Drafted through iterative AI generation and human curation. The human role was selection, cutting, sequencing, and boundary-setting. The AI role was producing surplus text. This JSON is part of the provenance: the seam is visible by design."
+    },
+    "sections": {
+        "opening": {
+            "text": "We live under a flood of finished-looking mediocrity.\nNot a style. An economic weapon: minutes to generate, hours to verify, filter, forget.\nThe feed rewards the cheapest signal and calls it culture.\n\nStop asking whether the machine feels.\nAsk what you chose, what you refused, and what you will answer for.\n\nSlop is not “AI-made.” Slop is publication without judgment.",
+            "notes": "Used the original hook nearly verbatim because it has the manifesto cadence and states the central inversion (machine feelings are irrelevant; accountability is the point)."
+        },
+        "naming": {
+            "text": "They use “slop” as a dismissal.\nWe take it as a name, and a discipline.\n\nA Slopist does not sign a prompt.\nA Slopist signs the cut: what was refused, what was spared, what was framed, what was named.\n\nSlopism is the act of forcing surplus into form, with visible seams and accountable choices.",
+            "notes": "The source manifesto only briefly defines slop and mentions “A Slopist signs in decisions.” I expanded this into an explicit reclamation of the insult and an identity claim, without changing the movement’s core unit: the cut."
+        },
+        "diagnosis": {
+            "text": "Generation is weather. It will keep raining.\nAbundance is not culture. Abundance is pressure.\n\nIn the flood, everything looks finished, and nothing has been judged.\nVerification becomes unpaid labor. Attention becomes a mined resource.\nWhat survives is whatever is cheapest to produce and hardest to question.\n\nSlop is not a medium. Slop is a condition: publication without judgment.",
+            "notes": "Pulled the ‘economic weapon’ framing into a broader condition statement (abundance, verification burden, erosion of judgment). This section could be stronger with one concrete image of harm that is not platform centric."
+        },
+        "enemy": {
+            "text": "Our enemy is the attention furnace.\nThe incentive system that pays for volume and punishes care, then calls the landfill “the future.”\n\nDeception is its fuel: fake evidence, synthetic intimacy, anonymous floods that cannot be questioned.\nOutside us.",
+            "notes": "Kept the original enemy phrase (‘attention furnace’) and connected it to deception and anonymity as operational tactics. If you want a sharper antagonist, name specific institutional forms (platforms, studios, ad networks) rather than an incentive system."
+        },
+        "demands": {
+            "text": "1. **Generation is weather. Curation is architecture.**\n   The model rains. It will keep raining. Art begins when abundance is forced into shape.\n\n2. **Creation begins at the first no.**\n   If you cannot name what you cut, you did not make a work. You opened a tap.\n\n3. **The unit of Slopism is the cut.**\n   Not the prompt. Not the output. The cut: sequence, frame, path through the graph. A Slopist signs in decisions.\n\n4. **Constraint is our signature.**\n   We starve infinity on purpose. Hard limits, hostile rules, blind collaboration, time delays, rituals that make choice visible.\n\n5. **Transparency is provenance.**\n   Do not hide the engine. Do not counterfeit witness. If a voice is simulated, say so. If a scene never happened, do not dress it in documentary light. Show the seam. When in doubt, label the spell.\n\n6. **Slopism is not a medium. It is a relationship.**\n   Wherever generation is cheap, the work is the same: carve meaning out of surplus, build forms that resist replacement.\n\n7. **A test.**\n   If your work can be swapped with a thousand near-twins and nothing essential changes, it is slop. If it survives “why this, why now, why this frame,” it can breathe.",
+            "notes": "Collected the actionable theses (cut, constraint, provenance, transparency, test). I omitted lineage and market claims here to keep this section as practice and test, not theory."
+        },
+        "lineage": {
+            "text": "We refuse the cult of speed.\nFuturism mistook the engine for the poem. We keep the machine and drop the worship.\n\nWe practice synthetic automatism, then we wake up.\nSurrealism sought the sentence beneath reason. Dada cut the newspaper.\nWe let the model spill, then we do the human task: selection, naming, context, responsibility.\nThe machine can improvise. Only a person can mean it.",
+            "notes": "Used the existing Futurism/Surrealism/Dada placement and made the movement’s delta explicit (keep the machine, drop the worship; spill then wake). If you want more authority, add one or two additional ancestors or explicit rejections (e.g., ‘promptcraft’ as genre)."
+        },
+        "politics": {
+            "text": "The flood is not neutral. It has owners.\nMinutes to generate, hours to verify means the cost is pushed downstream: onto artists, editors, moderators, teachers, journalists, and everyone forced to prove what is real.\n\nThe market is not a judge. It is a cashier.\nDo not confuse liquidity with legitimacy.\n\nWhen platforms can print infinite content, they can also collapse wages, drown small voices, and call it “democratization.”\nSlopism is a refusal of that bargain. We will not trade judgment for reach.",
+            "notes": "The original manifesto hints at political economy (‘economic weapon,’ ‘market is a cashier’) but doesn’t fully cash it out. I added a labor and downstream-cost frame consistent with the ‘hours to verify’ line. This could be stronger with clearer stakes and a named class of profiteers."
+        },
+        "closing": {
+            "text": "We are not here to clean the internet. We are here to make a practice inside the ruin.\n\nSlop is cheap. Judgment is not.\n\nNail this where the flood can see it.",
+            "notes": "Kept the original closing because it lands as a refusal plus a physical instruction. The last line is intentionally poster ready."
+        }
+    }
+}

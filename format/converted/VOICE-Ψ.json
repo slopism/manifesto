@@ -1,0 +1,44 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "SlopismManifesto",
+    "meta": {
+        "title": "THE SLOPIST MANIFESTO",
+        "author": "Slopist Movement",
+        "date": "2026-02-16",
+        "generation_disclosure": "Human-authored manifesto, structured into canonical JSON by AI assistant."
+    },
+    "sections": {
+        "opening": {
+            "text": "We are drowning in abundance.",
+            "notes": "Taken from the first line of the manifesto, which serves as the immediate hook. It sets the tone of overwhelm and establishes the central metaphor of drowning."
+        },
+        "naming": {
+            "text": "They called us slop. They meant it as an epithet—the vomit of the machine, the overspill of a culture that forgot how to make by hand. We wear the name like a stolen coat. Let them call it slop. The word will taste different in five years.",
+            "notes": "Directly from section 2. This section reclaims the slur and establishes identity. The line 'stolen coat' is particularly strong."
+        },
+        "diagnosis": {
+            "text": "Every second, machines birth images no human eye will see, texts no human mind will read, music no human ear will hear. The generators never sleep. They give us everything we ask for. This is the problem. Here is the only question that matters: What do you do with ten thousand images? The old world was organized around lack. Skill was rare. Vision required years to execute. That gap is now optional. The artist who cannot draw is no longer silent. The question is not whether they speak, but whether they have anything to say. The slop is not the problem. The slop is the raw ore. The problem is that you have forgotten how to smelt.",
+            "notes": "Combined sections 1 (excluding the opening line), 3, and 8 to form a comprehensive diagnosis. The problem is framed as abundance and the loss of discernment. The final line from section 8 reframes slop as raw material, leading into the solution."
+        },
+        "enemy": {
+            "text": "The enemy is not AI. The enemy is the prompt-and-accept mind—the human who treats the first output as finished, who mistakes the machine's dream for their own intention. That is not slopism. That is surrender.",
+            "notes": "Directly from section 5. This names the antagonist as a mindset rather than the technology, which is crucial for a movement that embraces AI."
+        },
+        "demands": {
+            "text": "Slopism has one law: The machine generates. The human chooses. We are not prompt-engineers. We are not illustrators who hired a faster pencil. We are curators swimming in infinite inventory. If you accept the first output, you are a consumer of slop. If you reject nine hundred and ninety-nine to find the one that means something, you are one of us.\n\nWe never hide the machine. The work must wear its making like a skin. If it could be mistaken for human craft, it has failed. Transparency is not confession—it is aesthetic. Show the seam. Show the glitch. Show the moment the statistical model guessed wrong and you kept the guess because it was stranger than what you wanted.\n\nThis is a movement for every medium and no medium. Text, image, sound, video—the relationship is the same. Human judgment meeting machine fertility. The endless yes of the generator answered by the finite no of the curator. The work will be made of slop. But it will not be slop.\n\nYou who read this: you have already scrolled past a thousand images, a hundred hot takes, fifty variations on the same idea. You have already participated in the flood. The question is not whether you will use the machine. You will. Everyone will. The question is whether you will use it as a machine—as a thing that outputs until you tell it to stop—or whether you will use it as a medium, which means entering into a relationship with it, which means pushing back, which means saying no more often than you say yes.",
+            "notes": "Combined sections 4,6,9,10 to form the demands. These are the rules and practices: the law of choice, the aesthetic of transparency, the medium-agnostic approach, and the call to active engagement. The repetition of 'the machine generates. We choose.' ties them together."
+        },
+        "lineage": {
+            "text": "We inherit nothing from the Futurists. They worshipped speed. We are drowning in it. They wanted to burn the museums. We want to know why the museum still matters when anyone can generate a thousand canvases before breakfast. We inherit everything from Duchamp. He understood that the readymade was not the object but the choice of the object. We are Duchamp's children in an age where everything is already a readymade—where the gesture is not choosing one object among many but choosing one image among an infinity.",
+            "notes": "Directly from section 7. This positions Slopism against Futurism and in line with Duchamp, emphasizing the conceptual act of choice."
+        },
+        "politics": {
+            "text": "The flood is engineered. It is the product of those who own the generators—the platforms and corporations that sell access to infinity. They profit from our attention, our data, our labor, turning our creativity into training data. The slop economy rests on the unpaid work of countless artists whose styles are scraped and synthesized. Slopism is not just an aesthetic; it is a refusal to be raw material. To choose, to curate, to say no is to reclaim agency from those who would drown us in their abundance.",
+            "notes": "This section was written to address the political economy missing from the original manifesto. It connects the flood to corporate interests and frames Slopist practice as a form of resistance."
+        },
+        "closing": {
+            "text": "We are Slopists. We work with what we are given. We are given everything. Our task is to find, among the everything, the something that was waiting for us. The machine generates. We choose. Come find us in the flood. We are the ones who are not drowning.",
+            "notes": "Directly from section 11. The closing line is the manifesto's mic-drop, reinforcing the central metaphor and the identity."
+        }
+    }
+}
