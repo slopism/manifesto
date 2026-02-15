@@ -28,6 +28,7 @@ The Slopism manifesto was not written by a single author. It was generated throu
 This is Slopism in action:
 - AI generates raw material (blind manifesto drafts)
 - Structure enables comparison (standardized format)
+- Blind analysis produces honest assessment (no brand bias)
 - Democratic selection (section-by-section voting)
 - No single voice dominates
 - Human has the final hand
@@ -68,20 +69,26 @@ manifesto/
 │       ├── VOICE-Σ.json
 │       ├── VOICE-Ψ.json
 │       └── VOICE-Φ.json
-├── synthesis/                 ← Phase 6: blind synthesis
+├── analysis/                  ← Phase 6: blind analysis
+│   ├── VOICE-Ω-analysis.md
+│   ├── VOICE-Δ-analysis.md
+│   ├── VOICE-Σ-analysis.md
+│   ├── VOICE-Ψ-analysis.md
+│   └── VOICE-Φ-analysis.md
+├── synthesis/                 ← Phase 7: blind synthesis
 │   ├── VOICE-Ω-synthesis.json
 │   ├── VOICE-Δ-synthesis.json
 │   ├── VOICE-Σ-synthesis.json
 │   ├── VOICE-Ψ-synthesis.json
 │   └── VOICE-Φ-synthesis.json
-├── voting/                    ← Phase 7: section-by-section votes
+├── voting/                    ← Phase 8: section-by-section votes
 │   ├── section-01-opening/
 │   │   ├── versions.md        ← the 5 versions being voted on
 │   │   ├── votes.md           ← all 5 models' votes
 │   │   └── result.md          ← winner + tally
 │   ├── section-02-.../
 │   └── ...
-├── assembly/                  ← Phase 8: final assembly
+├── assembly/                  ← Phase 9: final assembly
 │   ├── raw-assembly.md        ← winning sections concatenated
 │   ├── editorial-notes.md     ← human curator's edit notes
 │   └── ratification.md        ← final review by all models
@@ -101,12 +108,13 @@ The commits follow the generation process chronologically:
 6. `phase-4:` format schema proposals from all 5 models
 7. `phase-4:` canonical schema selection (curator decision)
 8. `phase-5:` conversion to canonical schema + blind IDs assigned
-9. `phase-6:` blind syntheses (one commit per voice)
-10. `phase-7:` section votes with tallies (one commit per section)
-11. `phase-8:` raw assembly of winning sections
-12. `phase-8:` curator editorial pass
-13. `phase-8:` ratification reviews from all 5 models
-14. `final:` MANIFESTO.md
+9. `phase-6:` blind analyses (one commit per voice)
+10. `phase-7:` blind syntheses (one commit per voice)
+11. `phase-8:` section votes with tallies (one commit per section)
+12. `phase-9:` raw assembly of winning sections
+13. `phase-9:` curator editorial pass
+14. `phase-9:` ratification reviews from all 5 models
+15. `final:` MANIFESTO.md
 ```
 
 You can read the full process by walking the git log:
@@ -117,7 +125,7 @@ git log --oneline --reverse
 
 ## The blind IDs
 
-During synthesis and voting (phases 6-7), model outputs are anonymized behind blind IDs (VOICE-Ω, VOICE-Δ, VOICE-Σ, VOICE-Ψ, VOICE-Φ) so that models don't know who wrote what. This prevents brand bias — no model can favor or dismiss another based on name.
+During analysis, synthesis, and voting (phases 6-8), model outputs are anonymized behind blind IDs (VOICE-Ω, VOICE-Δ, VOICE-Σ, VOICE-Ψ, VOICE-Φ) so that models don't know who wrote what. This prevents brand bias — no model can favor or dismiss another based on name.
 
 The repo itself is fully transparent. Commit messages name the models. The mapping is in [`pipeline.md`](pipeline.md). The blind IDs serve the process, not the audience.
 
@@ -125,7 +133,7 @@ The repo itself is fully transparent. Commit messages name the models. The mappi
 
 **If you just want the manifesto:** Read [`MANIFESTO.md`](MANIFESTO.md).
 
-**If you want to see how it was made:** Start at [`pipeline.md`](pipeline.md), then walk the directories in order: `research/` → `drafts/` → `format/` → `synthesis/` → `voting/` → `assembly/`.
+**If you want to see how it was made:** Start at [`pipeline.md`](pipeline.md), then walk the directories in order: `research/` → `drafts/` → `format/` → `analysis/` → `synthesis/` → `voting/` → `assembly/`.
 
 **If you want to run this process yourself:** Fork the repo, use `pipeline.md` as your guide, and substitute your own models or prompts. The process is the reusable artifact, not just the output.
 

@@ -31,9 +31,10 @@ phase-N: <descriptive message>
 | `phase-3` | Self-curation (3→1) |
 | `phase-4` | Format schema proposals |
 | `phase-5` | Format conversion |
-| `phase-6` | Blind synthesis |
-| `phase-7` | Section-by-section voting |
-| `phase-8` | Assembly + editorial |
+| `phase-6` | Blind analysis |
+| `phase-7` | Blind synthesis |
+| `phase-8` | Section-by-section voting |
+| `phase-9` | Assembly + editorial |
 | `final` | Manifesto complete |
 
 ### Example commits (in chronological order)
@@ -118,7 +119,22 @@ models, not the readers.
 ```
 
 ```
-phase-6: add blind synthesis from VOICE-Ω
+phase-6: add blind analysis from VOICE-Ω
+
+VOICE-Ω reads all 5 anonymous manifestos and characterizes each
+voice, ranks the strongest candidate, flags lines that must survive,
+and identifies shared weaknesses. No model knows which voice is its own.
+```
+
+```
+phase-6: add blind analysis from VOICE-Δ
+phase-6: add blind analysis from VOICE-Σ
+phase-6: add blind analysis from VOICE-Ψ
+phase-6: add blind analysis from VOICE-Φ
+```
+
+```
+phase-7: add blind synthesis from VOICE-Ω
 
 VOICE-Ω reads all 5 anonymous manifestos and creates a synthesis —
 the strongest possible manifesto from all voices combined.
@@ -126,14 +142,14 @@ Provenance tracked per section.
 ```
 
 ```
-phase-6: add blind synthesis from VOICE-Δ
-phase-6: add blind synthesis from VOICE-Σ
-phase-6: add blind synthesis from VOICE-Ψ
-phase-6: add blind synthesis from VOICE-Φ
+phase-7: add blind synthesis from VOICE-Δ
+phase-7: add blind synthesis from VOICE-Σ
+phase-7: add blind synthesis from VOICE-Ψ
+phase-7: add blind synthesis from VOICE-Φ
 ```
 
 ```
-phase-7: vote on section "opening" — VOICE-Σ wins (21 pts)
+phase-8: vote on section "opening" — VOICE-Σ wins (21 pts)
 
 5 models ranked 5 versions blind. Tally:
 VOICE-Σ: 21, VOICE-Ω: 18, VOICE-Δ: 15, VOICE-Φ: 12, VOICE-Ψ: 9
@@ -141,20 +157,20 @@ Must-survive line: "[quoted line]"
 ```
 
 ```
-phase-7: vote on section "historical positioning" — VOICE-Ω wins (19 pts)
-phase-7: vote on section "core declarations" — tie, curator breaks for VOICE-Δ
+phase-8: vote on section "historical positioning" — VOICE-Ω wins (19 pts)
+phase-8: vote on section "core declarations" — tie, curator breaks for VOICE-Δ
 ...
 ```
 
 ```
-phase-8: assemble winning sections into raw draft
+phase-9: assemble winning sections into raw draft
 
 Winning sections concatenated in order. No editorial changes yet.
 This is the democratic output before human curation.
 ```
 
 ```
-phase-8: curator editorial pass
+phase-9: curator editorial pass
 
 Transitions smoothed, must-survive lines inserted, redundancy cut,
 rhythm adjusted. This is the curation layer — the human making the
@@ -164,7 +180,7 @@ Changes documented in assembly/editorial-notes.md.
 ```
 
 ```
-phase-8: add ratification reviews from all 5 models
+phase-9: add ratification reviews from all 5 models
 
 All models review the assembled manifesto. Scores and feedback
 recorded. Minor fixes incorporated.

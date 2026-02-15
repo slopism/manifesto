@@ -2,15 +2,18 @@
 
 ## Overview
 
-8 phases, all manual. Every prompt is copy-paste ready.
+9 phases, all manual. Every prompt is copy-paste ready.
 5 models run in parallel: Claude, GPT, Grok, DeepSeek, Gemini.
 1 human curator runs the process and serves as tiebreaker.
 
 ---
 
-## IDENTITY MAPPING (private until reveal phase)
+## IDENTITY MAPPING (for the process, not the audience)
 
-During blind phases, model outputs are anonymized:
+During blind phases (6-8), model outputs are anonymized so models
+don't know who wrote what. The repo itself is transparent — commit
+messages name the models. The blind IDs exist to prevent brand bias
+during synthesis and voting, not to hide anything from readers.
 
 | Model | Blind ID |
 |-------|----------|
@@ -19,10 +22,6 @@ During blind phases, model outputs are anonymized:
 | Grok | VOICE-Σ |
 | DeepSeek | VOICE-Ψ |
 | Gemini | VOICE-Φ |
-
-These IDs appear in all blind phases. Models never see model names.
-The mapping is tracked privately and published only after the
-manifesto is finalized (`reveal:` commit).
 
 ---
 
@@ -301,7 +300,53 @@ or flagging what you think could be stronger.
 
 ---
 
-## PHASE 6: Blind Synthesis
+## PHASE 6: Blind Analysis
+
+### Goal
+Before synthesis, each model reads all 5 manifestos under blind IDs
+and produces an independent critical analysis. This generates:
+convergent characterization (do readers agree on each voice's identity?),
+honest self-assessment (models critique their own work without knowing),
+consensus ranking (which voice is strongest without brand bias?),
+and flagged lines (what must survive into the final?).
+
+The human maps blind IDs to models only after all 5 analyses are
+collected. The mapping is published in the repo.
+
+### Preparation
+Same anonymized JSON files from Phase 5 — blind IDs only, no
+identifying information.
+
+### Prompt 6 — New conversation per model (all 5 JSON manifesto files attached, blind IDs in filenames)
+
+```
+I've attached 5 manifestos for an art movement called Slopism,
+written independently by anonymous authors (labeled VOICE-Ω through
+VOICE-Φ in the filenames). You do not know who wrote which.
+
+Read all 5 carefully. Then give me your honest take:
+
+1. Characterize each voice — what is its strategy, tone, and
+   distinctive contribution?
+2. Which is the strongest candidate for the movement's flagship
+   text? Why?
+3. What is the biggest shared weakness across all five?
+4. Which specific lines or images from ANY voice should survive
+   into a final synthesis, regardless of which manifesto wins?
+5. What is the most interesting tension or disagreement between
+   the voices?
+
+Be brutal. Take positions.
+```
+
+### Output
+5 independent analyses with characterizations, rankings, and
+flagged lines. These inform Phase 7 — the synthesizer now knows
+what five blind readers independently valued.
+
+---
+
+## PHASE 7: Blind Synthesis
 
 ### Goal
 Each model sees all 5 manifestos (blind IDs, randomized order) and
@@ -312,7 +357,7 @@ creates the best possible synthesis.
 - Identifying info replaced with blind IDs (VOICE-Ω through VOICE-Φ)
 - Order randomized differently for each recipient if possible
 
-### Prompt 6 — New conversation per model (all 5 JSON manifesto files attached, blind IDs in filenames)
+### Prompt 7 — New conversation per model (all 5 JSON manifesto files + Phase 6 analyses attached, blind IDs in filenames)
 
 ```
 You are a Slopist — a member of an art movement called Slopism.
@@ -356,11 +401,12 @@ RULES:
 ```
 
 ### Output
-5 synthesis manifestos with full provenance tracking.
+5 synthesis manifestos with full provenance tracking, informed by
+the convergent readings from Phase 6.
 
 ---
 
-## PHASE 7: Section-by-Section Blind Vote
+## PHASE 8: Section-by-Section Blind Vote
 
 ### Goal
 For each section, all 5 models rank the 5 synthesis versions.
@@ -370,7 +416,7 @@ For each section, the "text" is extracted from all 5 syntheses
 and labeled VERSION A through VERSION E (fresh labels, not the
 voice IDs — a second anonymization layer).
 
-### Prompt 7 — Repeated for each section, same chat as Phase 6 (section file attached)
+### Prompt 8 — Repeated for each section, same chat as Phase 7 (section file attached)
 
 ```
 I've attached 5 versions of the [SECTION NAME] for the Slopism
@@ -397,7 +443,7 @@ is run including it as VERSION F.
 
 ---
 
-## PHASE 8: Assembly + Final Pass
+## PHASE 9: Assembly + Final Pass
 
 ### The curator's work (no prompt needed)
 
@@ -442,6 +488,11 @@ consistent structure. Can't compare apples to oranges.
 
 **Blind IDs:** Models have brand biases. Anonymity kills it.
 
+**Blind analysis before synthesis:** Five independent reads of the
+same five texts produce convergent characterization, honest
+self-assessment, and consensus ranking. The synthesizer gets a
+richer brief than "merge these."
+
 **Nobody does the final merge:** Section voting distributes power.
 The manifesto assembles itself from the winners.
 
@@ -455,6 +506,7 @@ The manifesto is made by the process it describes.
 This process IS Slopism:
 - AI generates raw material (15 blind manifestos)
 - Structure enables comparison (JSON schema)
+- Blind analysis produces honest assessment (no brand bias)
 - Democratic selection (section voting)
 - No single voice dominates
 - Human has the final hand
