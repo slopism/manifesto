@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SlopismManifesto",
+  "description": "Canonical structure for Slopism manifestos. 8 sections. Not all required — absence is data.",
+  "type": "object",
+  "required": ["meta", "sections"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["title", "author", "date"],
+      "properties": {
+        "title": { "type": "string" },
+        "author": { "type": "string" },
+        "date": { "type": "string", "format": "date" },
+        "generation_disclosure": {
+          "type": "string",
+          "description": "What role AI played in producing this manifesto. Slopism demands visible seams — this is the meta-seam."
+        }
+      }
+    },
+    "sections": {
+      "type": "object",
+      "description": "The eight canonical sections of a Slopism manifesto.",
+      "properties": {
+        "opening": {
+          "$ref": "#/$defs/Section",
+          "description": "The hook. The lines that stop someone mid-scroll or mid-wall. Short, declarative, rhythmic. No heading — it just hits. The manifesto lives or dies here."
+        },
+        "naming": {
+          "$ref": "#/$defs/Section",
+          "description": "The claim on the word 'Slopist' — why we take the insult, what we make it mean. The emotional act of reclaiming a slur as identity. Not a definition — an act of ownership."
+        },
+        "diagnosis": {
+          "$ref": "#/$defs/Section",
+          "description": "The problem stated. What has the machine done to making, to culture, to value? The condition — not the agent. This section carries the philosophical weight and earns the right to prescribe."
+        },
+        "enemy": {
+          "$ref": "#/$defs/Section",
+          "description": "The antagonist, named. Distinct from the diagnosis: the diagnosis is the weather, the enemy is who profits from it. The sharper the enemy, the sharper the movement."
+        },
+        "demands": {
+          "$ref": "#/$defs/Section",
+          "description": "The rules, imperatives, practices, and tests. What Slopism asks you to DO — and how you know if you did it. Manifestos without this section are essays."
+        },
+        "lineage": {
+          "$ref": "#/$defs/Section",
+          "description": "Art-historical positioning. Who we descend from, who we reject, and what we add. Without it, the movement floats."
+        },
+        "politics": {
+          "$ref": "#/$defs/Section",
+          "description": "The class and economic dimension. Who profits from the flood? Who drowns in it? A manifesto that ignores the political economy of AI content is aestheticizing a labor crisis. Absence is a statement."
+        },
+        "closing": {
+          "$ref": "#/$defs/Section",
+          "description": "The final lines. The manifesto's last image, its mic-drop, its call to identity. No heading — it just lands. It should close like a door."
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$defs": {
+    "Section": {
+      "type": "object",
+      "required": ["text", "notes"],
+      "properties": {
+        "text": {
+          "type": "string",
+          "description": "The manifesto content for this section."
+        },
+        "notes": {
+          "type": "string",
+          "description": "Editorial notes on intent, choices, or what could be stronger."
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
