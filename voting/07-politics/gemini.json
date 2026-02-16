@@ -1,0 +1,20 @@
+{
+    "section": "politics",
+    "ranking": [
+        "A",
+        "D",
+        "C",
+        "E",
+        "B"
+    ],
+    "best": {
+        "version": "A",
+        "why": "It best bridges the economic argument of Section I ('cost of making') with the artistic stance of the manifesto. The distinction between 'liquidity' and 'legitimacy' is a crucial philosophical addition that elevates the section beyond mere complaint. It maintains the authoritative, declarative rhythm of the previous sections without devolving into bureaucratic prescriptions (like B) or contradicting the tool-usage philosophy (like E's 'burn the pipes')."
+    },
+    "worst": {
+        "version": "B",
+        "why": "It abandons the poetic/philosophical voice for a procedural code of conduct ('We disclose provenance, we credit...'). It reads like a Terms of Service update rather than an art manifesto, breaking the immersion and 'high contrast' tone established in sections I-VI."
+    },
+    "must_survive_line": "Do not confuse liquidity with legitimacy.",
+    "proposed_replacement": null
+}

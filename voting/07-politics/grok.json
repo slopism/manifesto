@@ -1,0 +1,20 @@
+{
+    "section": "politics",
+    "ranking": [
+        "D",
+        "B",
+        "A",
+        "C",
+        "E"
+    ],
+    "best": {
+        "version": "D",
+        "why": "It continues the voice with the same terse, sculpted sentences and layered metaphors (flood, smoothness, pipes, paint). It folds the political reality into the aesthetic argument without breaking rhythm — 'Seamless Sovereigns' is pure Slopist coinage, and the closing refusal of the bargain directly echoes the opening declaration about the cost of judgment. The others either lecture, moralize, or detonate."
+    },
+    "worst": {
+        "version": "E",
+        "why": "It turns the manifesto into a manifesto. 'Sabotage,' 'burn the pipes,' 'gentrifiers' — these are slogans, not cuts. The tone shifts from sculptor to arsonist. The whole document has been quietly, ruthlessly choosing; this one wants to smash the studio."
+    },
+    "must_survive_line": "We refuse to aestheticize this theft. We acknowledge that our paint is made of scraped data. We oppose the Seamless Sovereigns who hoard the pipes and sell us the flow.",
+    "proposed_replacement": null
+}

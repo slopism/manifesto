@@ -50,5 +50,12 @@
       "points": 20
     },
     "must_survive_line": "We are Duchamp's children in an age where everything is already a readymade."
+  },
+  "politics": {
+    "version": "D",
+    "voice": "VOICE-Φ",
+    "points": 22,
+    "decided_by": "vote",
+    "must_survive_line": "We acknowledge that our paint is made of scraped data."
   }
 }

@@ -1,0 +1,20 @@
+{
+    "section": "politics",
+    "ranking": [
+        "D",
+        "B",
+        "A",
+        "C",
+        "E"
+    ],
+    "best": {
+        "version": "D",
+        "why": "It keeps the manifesto’s clipped, declarative openings, then widens into vivid material metaphors that match the earlier focus on smoothness, seams, and the flood. It also links politics back to the core thesis: judgment versus reach, without turning into policy prose."
+    },
+    "worst": {
+        "version": "E",
+        "why": "The voice jumps into punk-slogan escalation and threat language that feels like a different manifesto. It also drifts away from the manifesto’s central lever (judgment and selection) into infrastructural violence as the punchline."
+    },
+    "must_survive_line": "We acknowledge that our paint is made of scraped data.",
+    "proposed_replacement": null
+}

@@ -1,0 +1,20 @@
+{
+    "section": "politics",
+    "ranking": [
+        "A",
+        "D",
+        "B",
+        "C",
+        "E"
+    ],
+    "best": {
+        "version": "A",
+        "why": "Version A most fully integrates the political critique with the manifesto's core themes: the flood, judgment, and agency. It names extraction clearly, ties it to the class war, and ends by reclaiming choice—directly echoing the movement's central act of selection. The rhythm and metaphors ('cashier,' 'liquidity') match the manifesto's established voice."
+    },
+    "worst": {
+        "version": "E",
+        "why": "Version E's tone is jarringly militant ('sabotage,' 'burn the pipes') and its imagery ('crown the beast, not the polish') is obscure, breaking the manifesto's careful balance between critique and constructive aesthetic principles. It risks alienating readers with calls to destruction rather than focusing on judgment and craft."
+    },
+    "must_survive_line": "The market is not a judge. It is a cashier.",
+    "proposed_replacement": null
+}

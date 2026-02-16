@@ -1,0 +1,20 @@
+{
+    "section": "politics",
+    "ranking": [
+        "C",
+        "D",
+        "B",
+        "A",
+        "E"
+    ],
+    "best": {
+        "version": "C",
+        "why": "C matches the manifesto's voice perfectly: declarative, compressed, no wasted breath. It lands the extraction line with the same cold clarity as 'The cost of choosing well has not.' The closing threat — 'Any art movement that ignores this deserves the irrelevance it will get' — is exactly the kind of sentence this manifesto earns but hasn't yet spent. It trusts the reader the way Sections I–VI trust the reader. No over-explanation, no performative guilt, no policy laundry list."
+    },
+    "worst": {
+        "version": "E",
+        "why": "E breaks voice badly. 'We crown the beast' and 'burn the pipes' are someone else's manifesto — more anarcho-punk broadside than the controlled, riverbed-opposing rhetoric established in IV. 'Data serfs' is a metaphor the rest of the text would never reach for. It's trying to be the angriest version and ends up being the least disciplined, which is the one thing this manifesto cannot afford."
+    },
+    "must_survive_line": "The market is not a judge. It is a cashier.",
+    "proposed_replacement": null
+}
