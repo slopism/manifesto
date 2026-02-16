@@ -1,0 +1,20 @@
+{
+    "section": "closing",
+    "ranking": [
+        "E",
+        "A",
+        "C",
+        "D",
+        "B"
+    ],
+    "best": {
+        "version": "E",
+        "why": "It lands the manifesto’s core thesis with the same clipped, declarative rhythm, then seals it with the existing refrains (slop on the floor, nail it where the flood can see it, we do not drown, we choose). It feels like a tightening of what the text has already been saying, not a new argument."
+    },
+    "worst": {
+        "version": "B",
+        "why": "It slows the cadence and gets slightly explanatory and defensive with the photography analogy. The manifesto’s voice is already confident; this version lingers in justification instead of ending as a vow."
+    },
+    "must_survive_line": "The art was never in the tool. It was in the no.",
+    "proposed_replacement": null
+}

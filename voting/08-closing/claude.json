@@ -1,0 +1,20 @@
+{
+    "section": "closing",
+    "ranking": [
+        "C",
+        "E",
+        "B",
+        "D",
+        "A"
+    ],
+    "best": {
+        "version": "C",
+        "why": "C earns its closing. The photography callback answers the 'is it art?' question the manifesto has been implicitly building toward since Section I, and it does so without over-explaining. 'Every generation asks again with a new machine' lands because it reframes AI as just the latest iteration — which is the manifesto's core move. The triple cadence ('We do not dam it and we do not drown') gives it a final rhythmic swell that matches the controlled aggression of the earlier sections. Crucially, it places 'We choose' before 'Nail this' — the declaration comes first, the call to action seals it. The 'ten thousand deletions' line ties back to the 1:10,000 ratio from Section V without repeating it verbatim. It closes the loop."
+    },
+    "worst": {
+        "version": "A",
+        "why": "A is a bumper sticker. After seven sections of layered argument — Gutenberg, Duchamp, the Global South — a closing that opens with 'Slop is cheap' feels like it forgot everything the manifesto just said. 'Make a practice inside the ruin' is strong in isolation but the section has no arc, no final turn. It's all exit line, no argument. The manifesto earned a more complex goodbye."
+    },
+    "must_survive_line": "The art was never in the tool. It was in the no.",
+    "proposed_replacement": null
+}

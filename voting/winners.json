@@ -57,5 +57,12 @@
     "points": 22,
     "decided_by": "vote",
     "must_survive_line": "We acknowledge that our paint is made of scraped data."
+  },
+  "closing": {
+    "version": "C",
+    "voice": "VOICE-Ψ",
+    "points": 21,
+    "decided_by": "vote",
+    "must_survive_line": "The art was never in the tool. It was in the no."
   }
 }

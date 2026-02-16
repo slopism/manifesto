@@ -1,0 +1,20 @@
+{
+    "section": "closing",
+    "ranking": [
+        "C",
+        "B",
+        "E",
+        "D",
+        "A"
+    ],
+    "best": {
+        "version": "C",
+        "why": "It is the only version that truly *continues* rather than just ends. It picks up the thread from I (photography as precedent), V (the ten thousand deletions, the cost), III/IV (the flood that must neither be dammed nor drowned in), and the overall voice of defiant, historical self-awareness. The rhythm is perfect: question → historical echo → refusal of theory → lived practice → self-naming → final triad of resistance → We choose. It feels inevitable after VII."
+    },
+    "worst": {
+        "version": "A",
+        "why": "It is the most standalone and therefore the least continuous. \"Practice inside the ruin\" is a fresh image but it doesn’t sing with the flood/smelting/riverbed language that dominates the manifesto. It also dodges the \"but is it art?\" confrontation that every stronger version leans into. Too polite, too small."
+    },
+    "must_survive_line": "We do not dam it and we do not drown.",
+    "proposed_replacement": null
+}
