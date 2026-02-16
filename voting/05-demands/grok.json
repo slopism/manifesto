@@ -1,0 +1,20 @@
+{
+    "section": "demands",
+    "ranking": [
+        "D",
+        "E",
+        "A",
+        "C",
+        "B"
+    ],
+    "best": {
+        "version": "D",
+        "why": "It flows like the riverbed in IV—opposing the flood without stopping it. The prose stays in the manifesto’s register: short, scarred sentences, metaphors that bite back. It directly answers the smoothness problem with \"Refuse the medium\" and \"Curation is architecture,\" then lands the kill-shot test that echoes III’s \"why this, why now.\" No lists, no shouting, just the cut made visible."
+    },
+    "worst": {
+        "version": "B",
+        "why": "It turns the manifesto into a PowerPoint. The numbered commandments kill the rhythm dead. The voice that was singing in I–IV suddenly sounds like a subreddit rules post."
+    },
+    "must_survive_line": "Generate nothing you have not also destroyed. A Slopist’s portfolio is a cemetery. The work that survives has survived you.",
+    "proposed_replacement": null
+}

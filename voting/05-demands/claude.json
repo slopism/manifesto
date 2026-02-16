@@ -1,0 +1,20 @@
+{
+    "section": "demands",
+    "ranking": [
+        "E",
+        "D",
+        "C",
+        "A",
+        "B"
+    ],
+    "best": {
+        "version": "E",
+        "why": "E is the only version that matches the manifesto's existing rhythm — declarative, muscular prose that alternates between short punches and longer expansions. It carries forward the voice of sections I–IV without breaking stride. The bold imperatives work as structural anchors the way the manifesto's earlier numbered sections do, but it avoids the numbered-list flatness of B and C. It also earns its length: each paragraph does distinct work (the act, the ratio, transparency, medium-refusal, the test), and the closing line — 'you are one of us' — gives the manifesto its first moment of direct recruitment, which a demands section should. It breathes the way IV breathes."
+    },
+    "worst": {
+        "version": "B",
+        "why": "B is a grocery list. The manifesto up to this point has never once used numbered bullets — it builds through prose rhythm, repetition, and earned compression. B takes the strongest lines from the shared material and flattens them into five disconnected commandments with no connective tissue, no expansion, no voice. It reads like someone reduced the manifesto to index cards. It would kill the momentum coming out of IV's riverbed metaphor."
+    },
+    "must_survive_line": "A Slopist's portfolio is a cemetery. The work that survives has survived you.",
+    "proposed_replacement": null
+}

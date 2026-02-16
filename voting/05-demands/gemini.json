@@ -1,0 +1,20 @@
+{
+    "section": "demands",
+    "ranking": [
+        "E",
+        "A",
+        "B",
+        "C",
+        "D"
+    ],
+    "best": {
+        "version": "E",
+        "why": "This is the only version that expands the argument rather than repeating it. It introduces a crucial new dimension ('Refuse the medium') and avoids the fatal error of Versions A, B, C, and D, which all repeat the 'near-twins' definition already established verbatim in Section III. While slightly more didactic, it successfully transitions from the philosophical ('Generation is weather') to the practical ('The Ratio is 1:10,000'), providing a substantial and distinct conclusion."
+    },
+    "worst": {
+        "version": "D",
+        "why": "It acts as a summary rather than a continuation. It recycles nearly 50% of its text from Section III (the definition of slop and the 'why this, why now' test), bringing the manifesto's momentum to a dead halt."
+    },
+    "must_survive_line": "A Slopist’s portfolio is a cemetery.",
+    "proposed_replacement": null
+}

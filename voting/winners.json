@@ -31,5 +31,12 @@
     "points": 23,
     "decided_by": "vote",
     "must_survive_line": "We oppose smoothness the way a riverbed opposes water: not to stop it, but to give it shape."
+  },
+  "demands": {
+    "version": "E",
+    "voice": "VOICE-Ψ",
+    "points": 24,
+    "decided_by": "vote",
+    "must_survive_line": "A Slopist's portfolio is a cemetery. The work that survives has survived you."
   }
 }

@@ -1,0 +1,20 @@
+{
+    "section": "demands",
+    "ranking": [
+        "E",
+        "D",
+        "A",
+        "B",
+        "C"
+    ],
+    "best": {
+        "version": "E",
+        "why": "It preserves the manifesto’s declarative, paragraph-driven cadence while shifting cleanly into imperatives. It reuses existing motifs (weather/flood, the cut, the seam) without feeling like a different document, and it escalates into a final law that lands as a refrain rather than a list."
+    },
+    "worst": {
+        "version": "C",
+        "why": "The all-caps headers and shock-joke phrasing (“CROWN THE TURDS”) yank the tone toward sneer/comedy, breaking the controlled seriousness and rhythm established in I–IV. It reads like a different movement speaking over this one."
+    },
+    "must_survive_line": "Generate nothing you have not also destroyed.",
+    "proposed_replacement": null
+}

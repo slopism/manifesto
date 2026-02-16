@@ -1,0 +1,20 @@
+{
+    "section": "demands",
+    "ranking": [
+        "E",
+        "D",
+        "C",
+        "A",
+        "B"
+    ],
+    "best": {
+        "version": "E",
+        "why": "Version E best continues the manifesto's voice and rhythm. It opens with the powerful, declarative sentence 'Generate nothing you have not also destroyed,' which echoes the cadence of the original sections. It then builds with the bold, memorable headers ('The Ratio is the Art,' 'Hide nothing') that act like the manifesto's earlier 'Slop is not a medium. Slop is a condition.' The structure allows for both poetic expansion and the necessary, test-like clarity of the final law, making it feel like a complete and inevitable culmination of the ideas that came before."
+    },
+    "worst": {
+        "version": "B",
+        "why": "While containing strong individual lines, Version B reads too much like a simple list or bullet points. It lacks the rhythmic flow and the declarative, manifesto-like prose of the original. The imperative 'Starve infinity on purpose' feels slightly forced compared to the more natural, image-driven language of the other versions (like 'Leave the slop on the floor. Hang the selection on the wall'). It fails to build the same poetic momentum."
+    },
+    "must_survive_line": "The machine generates. The human chooses.",
+    "proposed_replacement": null
+}
