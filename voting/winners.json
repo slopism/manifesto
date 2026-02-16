@@ -38,5 +38,17 @@
     "points": 24,
     "decided_by": "vote",
     "must_survive_line": "A Slopist's portfolio is a cemetery. The work that survives has survived you."
+  },
+  "lineage": {
+    "version": "C",
+    "voice": "VOICE-Ω",
+    "points": 20,
+    "decided_by": "curator",
+    "tied_with": {
+      "version": "B",
+      "voice": "VOICE-Ψ",
+      "points": 20
+    },
+    "must_survive_line": "We are Duchamp's children in an age where everything is already a readymade."
   }
 }

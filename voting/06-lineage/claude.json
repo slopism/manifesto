@@ -1,0 +1,20 @@
+{
+    "section": "lineage",
+    "ranking": [
+        "C",
+        "E",
+        "B",
+        "D",
+        "A"
+    ],
+    "best": {
+        "version": "C",
+        "why": "C matches the manifesto's voice most precisely: declarative, muscular, no wasted clauses. It keeps the three-movement structure (Futurists/Surrealists/Dadaists-Duchamp) but compresses each to its sharpest form. The sculptor-and-stone line earns its place because it echoes Section IV's riverbed metaphor — resistance as shaping force. It closes on 'starting material,' which hands the baton back to the manifesto's central demand: judgment. Unlike B, it doesn't over-explain; unlike D, it doesn't under-furnish."
+    },
+    "worst": {
+        "version": "A",
+        "why": "A opens with Duchamp but then rushes through Futurism and Surrealism as afterthoughts. It reads like notes toward a section rather than the section itself. The manifesto earns its authority through controlled elaboration — A is too thin to carry that weight, and its ordering (Duchamp first, then backward through the movements) breaks the chronological momentum the other versions build."
+    },
+    "must_survive_line": "The machine has no unconscious. Its surprises are statistical, not psychological. When we find something uncanny in the output — six-fingered saints, shrimp Christs — the uncanniness belongs to us.",
+    "proposed_replacement": null
+}

@@ -1,0 +1,20 @@
+{
+    "section": "lineage",
+    "ranking": [
+        "E",
+        "C",
+        "D",
+        "B",
+        "A"
+    ],
+    "best": {
+        "version": "E",
+        "why": "Version E best continues the manifesto's voice with its concise, parallel structure and rhythmic punch. It cleanly inherits from Dada, Surrealism, and Futurism, each distilled into a single, memorable line. The ending, 'Someone has to decide what hangs,' directly ties back to the manifesto's core theme of selection under pressure, and the phrase 'spit the worship' captures the rebellious, anti-smoothness tone perfectly."
+    },
+    "worst": {
+        "version": "A",
+        "why": "Version A feels truncated and lacks the vivid details and rhythmic flow of the others. The explanatory sentence about Duchamp is flat, and the absence of the Marinetti line or specific uncanny examples (like six-fingered saints) makes it less engaging and less connected to the manifesto's earlier imagery."
+    },
+    "must_survive_line": "We are Duchamp's children in an age where everything is already a readymade.",
+    "proposed_replacement": null
+}

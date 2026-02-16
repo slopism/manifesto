@@ -1,0 +1,20 @@
+{
+    "section": "lineage",
+    "ranking": [
+        "B",
+        "C",
+        "E",
+        "D",
+        "A"
+    ],
+    "best": {
+        "version": "B",
+        "why": "It matches the manifesto’s declarative cadence and escalatory structure, keeps the same moral posture (use, not worship), and lands cleanly on the Duchamp readymade logic that fits the earlier ‘judgment’ thesis. It also preserves the manifesto’s concrete imagery and pressure-of-abundance framing without sounding like an aside."
+    },
+    "worst": {
+        "version": "A",
+        "why": "It reads like a compressed art-history summary rather than a continuation of the manifesto’s voice. The sentences are flatter, the stakes feel lower, and it lacks the manifesto’s punchy, law-like turns; it also ends abruptly without a strong closing beat."
+    },
+    "must_survive_line": "The Dadaists cut up newspapers and called it art. We cut up the entire internet and call it starting material.",
+    "proposed_replacement": null
+}

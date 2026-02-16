@@ -1,0 +1,20 @@
+{
+    "section": "lineage",
+    "ranking": [
+        "B",
+        "E",
+        "C",
+        "A",
+        "D"
+    ],
+    "best": {
+        "version": "B",
+        "why": "It is the only version that successfully bridges the high-theory tone of the manifesto with the low-culture reality of 'slop' (referencing 'shrimp Christs' and 'six-fingered saints'). It articulates the core philosophical shift—from making to choosing—most clearly with the expansion on Duchamp at the end. It feels substantial enough to stand alongside the previous sections."
+    },
+    "worst": {
+        "version": "D",
+        "why": "It is too brief and breezy. The previous sections have a weight and a slightly sermon-like cadence; Version D feels like a summary of a paragraph rather than the paragraph itself. It lacks the 'bite' required to follow the aggression of Section IV."
+    },
+    "must_survive_line": "We are Duchamp's children in an age where everything is already a readymade — where the gesture is not choosing one urinal among many, but choosing one image among an infinity.",
+    "proposed_replacement": null
+}
