@@ -1,0 +1,20 @@
+{
+    "section": "enemy",
+    "ranking": [
+        "A",
+        "E",
+        "D",
+        "B",
+        "C"
+    ],
+    "best": {
+        "version": "A",
+        "why": "It continues the manifesto’s voice with the same prophetic density and layered metaphors as III (flood → smelting → now smoothness as the thing that prevents smelting). The rhythm builds like the earlier sections: definition → consequence → systemic indictment → defiant image. The 'precise moment' line is the philosophical hinge the whole text has been waiting for, and 'Seamless Sovereigns' names the new landlords without breaking the tone — it feels like the natural next beat after 'publication without judgment.'"
+    },
+    "worst": {
+        "version": "C",
+        "why": "Too clipped. It loses the incantatory repetition of examples that gives the manifesto its pulse, and 'prompt-and-accept mind' is clever but lands like a tweet instead of a clause in a creed."
+    },
+    "must_survive_line": "We oppose smoothness the way a riverbed opposes water: not to stop it, but to give it shape.",
+    "proposed_replacement": null
+}

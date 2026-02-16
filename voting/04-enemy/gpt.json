@@ -1,0 +1,20 @@
+{
+    "section": "enemy",
+    "ranking": [
+        "E",
+        "D",
+        "C",
+        "B",
+        "A"
+    ],
+    "best": {
+        "version": "E",
+        "why": "It matches the manifesto’s controlled severity: crisp parallel definitions, concrete examples, and a clean moral distinction (judgment vs frictionless output) without drifting into topical name-dropping or extra theatrics."
+    },
+    "worst": {
+        "version": "A",
+        "why": "The brand-naming and baroque invective (“vomit,” “algorithm-serf”) shifts the voice from austere diagnosis into rant, breaking the manifesto’s measured rhythm and timelessness."
+    },
+    "must_survive_line": "We oppose smoothness the way a riverbed opposes water: not to stop it, but to give it shape.",
+    "proposed_replacement": null
+}

@@ -1,0 +1,20 @@
+{
+    "section": "enemy",
+    "ranking": [
+        "E",
+        "A",
+        "D",
+        "C",
+        "B"
+    ],
+    "best": {
+        "version": "E",
+        "why": "It maintains the manifesto's disciplined, aphoristic voice without descending into the polemical ranting found in Version A ('virality's vomit'). It frames 'smoothness' as a structural condition ('technology applied without resistance') rather than the fault of specific bad actors, which aligns perfectly with the 'weather' metaphor in Section III."
+    },
+    "worst": {
+        "version": "B",
+        "why": "It creates a tonal conflict. The metaphors of 'war,' 'domesticating,' and 'wild beasts' suggest a primitivist or chaotic approach, whereas Slopism (as defined in I and II) is about the precise, intellectual act of judgment, editing, and curation."
+    },
+    "must_survive_line": "We oppose smoothness the way a riverbed opposes water: not to stop it, but to give it shape.",
+    "proposed_replacement": null
+}

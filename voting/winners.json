@@ -24,5 +24,12 @@
     "points": 25,
     "decided_by": "vote",
     "must_survive_line": "Slop is not a medium. Slop is a condition: publication without judgment."
+  },
+  "enemy": {
+    "version": "E",
+    "voice": "VOICE-Ω",
+    "points": 23,
+    "decided_by": "vote",
+    "must_survive_line": "We oppose smoothness the way a riverbed opposes water: not to stop it, but to give it shape."
   }
 }

@@ -1,0 +1,20 @@
+{
+    "section": "enemy",
+    "ranking": [
+        "E",
+        "C",
+        "D",
+        "B",
+        "A"
+    ],
+    "best": {
+        "version": "E",
+        "why": "It matches the manifesto's established voice exactly: declarative, compressed, no wasted breath. Each sentence earns the next. The three-beat catalog (image, essay, song) escalates without overstaying. 'Smoothness is not a failure of technology. It is technology applied without resistance.' is the sharpest formulation of the idea — it reframes rather than merely accuses, which is what the manifesto does at every turn. The riverbed closer lands clean because nothing before it has cluttered the runway."
+    },
+    "worst": {
+        "version": "A",
+        "why": "It bloats in the middle. 'Seamless Sovereigns,' 'algorithm-serf us,' 'virality's vomit over vision's vertigo' — this is a different writer's voice entirely: alliterative, maximalist, reaching for punk-poster rage where the manifesto has been earning its force through restraint. The designer line is a good observation but belongs in a longer essay, not a manifesto paragraph that needs to hit and move. It breaks the rhythm the first three sections built."
+    },
+    "must_survive_line": "Smoothness is the AI image that looks finished but was never begun.",
+    "proposed_replacement": null
+}
