@@ -1,0 +1,20 @@
+{
+    "section": "opening",
+    "ranking": [
+        "B",
+        "D",
+        "C",
+        "A",
+        "E"
+    ],
+    "best": {
+        "version": "B",
+        "why": "It states the core problem cleanly (abundance vs judgment), gives historical precedent, and names what Slopism is for without drowning in metaphor."
+    },
+    "worst": {
+        "version": "E",
+        "why": "It’s only a hook and a refusal; it doesn’t define the problem, the stance, or the movement’s practice."
+    },
+    "must_survive_line": "The cost of making has collapsed to zero. The cost of choosing well has not.",
+    "proposed_replacement": null
+}

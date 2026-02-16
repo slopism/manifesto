@@ -1,0 +1,20 @@
+{
+    "section": "opening",
+    "ranking": [
+        "B",
+        "D",
+        "C",
+        "A",
+        "E"
+    ],
+    "best": {
+        "version": "B",
+        "why": "It nails the manifesto’s intellectual spine: the precise historical diagnosis, the new scarcity (judgment), and the direct declaration of what Slopism *is*. The others are poetic; this one is foundational."
+    },
+    "worst": {
+        "version": "E",
+        "why": "It’s a single defiant shrug. A manifesto opening needs to seduce, define, and arm the reader. This just says “no” and walks away."
+    },
+    "must_survive_line": "The cost of making has collapsed to zero. The cost of choosing well has not. It has never been higher.",
+    "proposed_replacement": null
+}

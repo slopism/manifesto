@@ -1,0 +1,20 @@
+{
+    "section": "opening",
+    "ranking": [
+        "B",
+        "D",
+        "C",
+        "A",
+        "E"
+    ],
+    "best": {
+        "version": "B",
+        "why": "It does the most work. The opening hook is shared with other versions, but B earns its length: it frames the historical argument (press, camera, sampler), lands the thesis ('judgment is the last expensive thing in the room'), and names the movement in a single controlled arc. Every sentence tightens the claim rather than restating it. The rhetoric is confident without being drunk on its own imagery."
+    },
+    "worst": {
+        "version": "E",
+        "why": "It's a throat-clear, not an opening. Two lines of shared premise plus a refusal, then nothing. It mistakes brevity for power. A manifesto opening needs to establish stakes and declare a position — E only does the second, and even that ('we do not intend to let them') is a negation without content. It tells you what Slopism isn't, never what it is."
+    },
+    "must_survive_line": "The cost of making has collapsed to zero. The cost of choosing well has not.",
+    "proposed_replacement": null
+}

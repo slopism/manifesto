@@ -1,0 +1,20 @@
+{
+    "section": "opening",
+    "ranking": [
+        "B",
+        "D",
+        "C",
+        "A",
+        "E"
+    ],
+    "best": {
+        "version": "B",
+        "why": "Version B clearly articulates the central problem—the collapse of making cost versus the rising cost of choosing—and places it in a historical context of previous media revolutions. It directly defines Slopism as a movement that takes judgment seriously, making it both accessible and intellectually grounded."
+    },
+    "worst": {
+        "version": "E",
+        "why": "Version E is too brief and incomplete as an opening section. While the hook is strong, it offers no context, explanation, or positioning of the movement, leaving the reader without a clear understanding of the manifesto's purpose."
+    },
+    "must_survive_line": "The cost of making has collapsed to zero. The cost of choosing well has not.",
+    "proposed_replacement": null
+}

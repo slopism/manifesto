@@ -1,0 +1,20 @@
+{
+    "section": "opening",
+    "ranking": [
+        "B",
+        "D",
+        "A",
+        "C",
+        "E"
+    ],
+    "best": {
+        "version": "B",
+        "why": "This version provides the strongest intellectual scaffolding for the movement. By contextualizing AI within the history of production (Gutenberg, Photography), it elevates Slopism from a mere reaction to a necessary evolution of art. It perfectly identifies the core economic shift: the scarcity of judgment in an era of infinite generation."
+    },
+    "worst": {
+        "version": "E",
+        "why": "It presents the conflict but offers no synthesis or solution. It functions more as a slogan than an opening manifesto section, lacking the vital pivot toward using judgment as a tool."
+    },
+    "must_survive_line": "The cost of making has collapsed to zero. The cost of choosing well has not.",
+    "proposed_replacement": null
+}
