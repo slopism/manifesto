@@ -82,12 +82,23 @@ manifesto/
 │   ├── VOICE-Ψ-synthesis.json
 │   └── VOICE-Φ-synthesis.json
 ├── voting/                    ← Phase 8: section-by-section votes
-│   ├── section-01-opening/
-│   │   ├── versions.md        ← the 5 versions being voted on
-│   │   ├── votes.md           ← all 5 models' votes
-│   │   └── result.md          ← winner + tally
-│   ├── section-02-.../
-│   └── ...
+│   ├── prepare_voting.py      ← generates ballots incrementally
+│   ├── mapping.json           ← curator key (VERSION letter → VOICE ID)
+│   ├── winners.json           ← accumulated winning text per section
+│   ├── 01-opening/
+│   │   ├── ballot.md          ← copy-pasted into fresh chat per model
+│   │   ├── claude.json        ← each model's JSON vote
+│   │   ├── gpt.json
+│   │   ├── grok.json
+│   │   ├── deepseek.json
+│   │   └── gemini.json
+│   ├── 02-naming/             ← ballot includes winning opening as context
+│   ├── 03-diagnosis/
+│   ├── 04-enemy/
+│   ├── 05-demands/
+│   ├── 06-lineage/
+│   ├── 07-politics/
+│   └── 08-closing/
 ├── assembly/                  ← Phase 9: final assembly
 │   ├── raw-assembly.md        ← winning sections concatenated
 │   ├── editorial-notes.md     ← human curator's edit notes

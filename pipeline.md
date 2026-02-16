@@ -416,21 +416,106 @@ For each section, the "text" is extracted from all 5 syntheses
 and labeled VERSION A through VERSION E (fresh labels, not the
 voice IDs — a second anonymization layer).
 
-### Prompt 8 — Repeated for each section, same chat as Phase 7 (section file attached)
+### Prompt 8 — New chat per model, repeated for each section
+
+Sections are voted in order: opening → naming → diagnosis → enemy →
+demands → lineage → politics → closing. Each vote's winner becomes
+context for the next, so models judge continuity — not just standalone
+quality. The manifesto is built incrementally.
+
+The ballot (`ballot.md`) is self-contained — it includes the framing,
+the 5 candidate versions, continuity instructions (for sections after
+the opening), and the JSON response format. Copy-paste the full
+contents directly into a new chat. One fresh chat per model per section.
+
+Each ballot file follows this structure:
+
+**Opening (first section):**
+```
+You are voting on sections for the Slopism manifesto — an art
+movement about human judgment meeting machine abundance.
+
+5 versions of the OPENING section. You don't know who wrote which.
+
+[VERSION A through E]
+
+[JSON response format]
+```
+
+**All subsequent sections:**
+```
+You are voting on sections for the Slopism manifesto.
+Here is the manifesto so far:
+
+---
+[accumulated winning sections]
+---
+
+5 versions of the [SECTION] section. You don't know who wrote which.
+
+[VERSION A through E]
+
+Which one best continues this manifesto? Consider voice,
+rhythm, and flow — not just standalone quality.
+
+[JSON response format]
+```
+
+**JSON response format (included in every ballot):**
+```json
+{
+  "section": "[section name]",
+  "ranking": ["X", "X", "X", "X", "X"],
+  "best": { "version": "X", "why": "..." },
+  "worst": { "version": "X", "why": "..." },
+  "must_survive_line": "...",
+  "proposed_replacement": null
+}
+```
+`ranking` is best-to-worst (first entry = #1 pick).
+`proposed_replacement` is null unless none are good enough.
+
+### Voting file generation
+
+Voting files are generated incrementally using `voting/prepare_voting.py`.
+Each section gets its own numbered folder with the ballot and empty vote
+files for each model:
+
+```bash
+# Generate ballot for a section
+python voting/prepare_voting.py opening
+python voting/prepare_voting.py naming    # reads winners.json automatically
+python voting/prepare_voting.py diagnosis
+# ... etc
+```
+
+This creates:
 
 ```
-I've attached 5 versions of the [SECTION NAME] for the Slopism
-manifesto. Written by different authors. You don't know who wrote which.
-Read the attached file carefully.
-
-VOTE:
-1. Rank best (1) to worst (5).
-2. #1 choice — why? (2 sentences max)
-3. #5 choice — what's wrong? (1 sentence)
-4. Is there a specific LINE from ANY version that MUST survive
-   into the final manifesto? Quote it exactly.
-5. If none are good enough, write a PROPOSED REPLACEMENT.
+voting/
+├── mapping.json              ← curator key (VERSION letter → VOICE ID)
+├── winners.json              ← accumulated winning text, updated after each tally
+├── prepare_voting.py
+├── 01-opening/
+│   ├── ballot.md             ← attach this to each model chat
+│   ├── claude.json           ← paste Claude's JSON vote here
+│   ├── gpt.json
+│   ├── grok.json
+│   ├── deepseek.json
+│   └── gemini.json
+├── 02-naming/
+│   ├── ballot.md             ← includes winning opening as context
+│   ├── claude.json
+│   └── ...
+├── 03-diagnosis/
+│   └── ...
+└── 08-closing/
 ```
+
+The script enforces ordering — it will not generate a ballot until all
+prior sections have winners in `winners.json`. Each ballot after the
+opening includes the accumulated manifesto so models judge continuity,
+not just standalone quality.
 
 ### Tallying
 1st = 5pts, 2nd = 4pts, 3rd = 3pts, 4th = 2pts, 5th = 1pt.

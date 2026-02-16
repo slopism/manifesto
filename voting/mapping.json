@@ -1,0 +1,58 @@
+{
+  "opening": {
+    "A": "VOICE-Δ",
+    "B": "VOICE-Ψ",
+    "C": "VOICE-Φ",
+    "D": "VOICE-Σ",
+    "E": "VOICE-Ω"
+  },
+  "naming": {
+    "A": "VOICE-Δ",
+    "B": "VOICE-Φ",
+    "C": "VOICE-Ω",
+    "D": "VOICE-Σ",
+    "E": "VOICE-Ψ"
+  },
+  "diagnosis": {
+    "A": "VOICE-Δ",
+    "B": "VOICE-Ψ",
+    "C": "VOICE-Φ",
+    "D": "VOICE-Ω",
+    "E": "VOICE-Σ"
+  },
+  "enemy": {
+    "A": "VOICE-Ψ",
+    "B": "VOICE-Φ",
+    "C": "VOICE-Δ",
+    "D": "VOICE-Σ",
+    "E": "VOICE-Ω"
+  },
+  "demands": {
+    "A": "VOICE-Σ",
+    "B": "VOICE-Δ",
+    "C": "VOICE-Φ",
+    "D": "VOICE-Ω",
+    "E": "VOICE-Ψ"
+  },
+  "lineage": {
+    "A": "VOICE-Φ",
+    "B": "VOICE-Ψ",
+    "C": "VOICE-Ω",
+    "D": "VOICE-Δ",
+    "E": "VOICE-Σ"
+  },
+  "politics": {
+    "A": "VOICE-Ψ",
+    "B": "VOICE-Δ",
+    "C": "VOICE-Ω",
+    "D": "VOICE-Φ",
+    "E": "VOICE-Σ"
+  },
+  "closing": {
+    "A": "VOICE-Σ",
+    "B": "VOICE-Ω",
+    "C": "VOICE-Ψ",
+    "D": "VOICE-Φ",
+    "E": "VOICE-Δ"
+  }
+}

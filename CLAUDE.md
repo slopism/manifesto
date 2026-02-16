@@ -223,8 +223,32 @@ voice dominates. The process is documented and transparent.
 - Model outputs in `drafts/`: use model name (public, pre-anonymization)
 - Converted files in `format/converted/`: use blind IDs (VOICE-Ω etc.)
 - Synthesis files: use blind IDs
-- Voting files: use VERSION A-E labels (fresh anonymization layer)
+- Voting ballots: use VERSION A-E labels (fresh anonymization layer)
+- Voting folders: numbered `01-opening/` through `08-closing/`
+- Vote results: named by model (`claude.json`, `gpt.json`, etc.)
 - Final manifesto: `MANIFESTO.md` at repo root
+
+## Phase 8 voting workflow
+
+Sections are voted **in order**. Each vote's winner becomes context
+for the next ballot, so models judge continuity — not just standalone
+quality. The manifesto is built incrementally.
+
+```bash
+# Generate the next ballot (reads winners.json for accumulated context)
+python voting/prepare_voting.py <section>
+
+# Section order: opening → naming → diagnosis → enemy →
+#   demands → lineage → politics → closing
+```
+
+Each section folder (`voting/01-opening/`, etc.) contains:
+- `ballot.md` — copy-paste into a fresh chat per model
+- `claude.json`, `gpt.json`, `grok.json`, `deepseek.json`,
+  `gemini.json` — where each model's JSON vote is stored
+
+After tallying a section, update `voting/winners.json` with the
+winning text before generating the next ballot.
 
 ## Directory creation
 
