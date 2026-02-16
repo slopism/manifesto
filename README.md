@@ -2,7 +2,7 @@
 
 > *A critic named it. Five AIs and one human wrote the manifesto.*
 
-**[Read the manifesto.](MANIFESTO.md)**
+**[Read the manifesto.](https://slopism.art/manifesto)**
 
 ## What is this?
 
