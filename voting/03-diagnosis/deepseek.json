@@ -1,0 +1,20 @@
+{
+    "section": "diagnosis",
+    "ranking": [
+        "B",
+        "E",
+        "A",
+        "C",
+        "D"
+    ],
+    "best": {
+        "version": "B",
+        "why": "Version B builds on the flood metaphor introduced earlier, defines slop with a memorable test ('If your work can be swapped...'), and introduces the essential smelting metaphor. Its rhythm—short declarative sentences, a conditional, and a concluding punch—matches the manifesto's urgent, declarative voice. It advances the argument without repeating earlier lines, setting up the movement's purpose."
+    },
+    "worst": {
+        "version": "D",
+        "why": "Version D merely recycles large portions of Section I verbatim, offering almost no new insight. It fails to advance the diagnosis and reads as redundant, breaking the flow of the manifesto."
+    },
+    "must_survive_line": "The slop is not the problem. The slop is the raw ore. The problem is that you have forgotten how to smelt.",
+    "proposed_replacement": null
+}

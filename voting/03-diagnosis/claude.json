@@ -1,0 +1,20 @@
+{
+    "section": "diagnosis",
+    "ranking": [
+        "B",
+        "E",
+        "A",
+        "C",
+        "D"
+    ],
+    "best": {
+        "version": "B",
+        "why": "B is the only version that actually advances the argument instead of restating Section I. It introduces new conceptual territory — attention as mined resource, verification as unpaid labor, the swap test, the smelting metaphor — while matching the manifesto's staccato declarative rhythm. It earns its length."
+    },
+    "worst": {
+        "version": "D",
+        "why": "D is nearly a verbatim copy of Section I — the cost lines, Gutenberg, photography, all of it. Placing it as a later section would make the manifesto stutter. It adds only the smelting line, which B delivers better in context."
+    },
+    "must_survive_line": "If your work can be swapped with a thousand near-twins and nothing essential changes, it is slop.",
+    "proposed_replacement": null
+}

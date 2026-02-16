@@ -1,0 +1,20 @@
+{
+    "section": "diagnosis",
+    "ranking": [
+        "B",
+        "E",
+        "A",
+        "C",
+        "D"
+    ],
+    "best": {
+        "version": "B",
+        "why": "It flows like a living continuation: picks up the 'flood' from II without repeating I, deepens the diagnosis with fresh pressure metaphors ('Abundance is pressure', 'mined resource'), sharpens the definition of slop as a condition rather than a medium, and lands the smelting line with rhythmic inevitability. The voice is pure manifesto—short, prophetic, unafraid of the reader."
+    },
+    "worst": {
+        "version": "D",
+        "why": "Near-verbatim lift from the end of I, including the full Gutenberg-to-AI history. It stalls the momentum dead and makes the manifesto eat its own tail."
+    },
+    "must_survive_line": "The slop is not the problem. The slop is the raw ore. The problem is that you have forgotten how to smelt.",
+    "proposed_replacement": null
+}

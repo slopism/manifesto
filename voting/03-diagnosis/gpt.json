@@ -1,0 +1,20 @@
+{
+    "section": "diagnosis",
+    "ranking": [
+        "B",
+        "A",
+        "E",
+        "C",
+        "D"
+    ],
+    "best": {
+        "version": "B",
+        "why": "It extends the manifesto's existing motifs (flood, judgment, cost-shift) without re-stating them verbatim, keeps the aphoristic cadence, and adds sharp definitional stakes (slop as a condition, not a medium) that naturally follows \"signs the cut.\""
+    },
+    "worst": {
+        "version": "D",
+        "why": "It largely repeats what the manifesto has already said in section I (including the Gutenberg/photography/A.I. escalation), so as a continuation it feels like looping instead of advancing."
+    },
+    "must_survive_line": "Slop is not a medium. Slop is a condition: publication without judgment.",
+    "proposed_replacement": null
+}

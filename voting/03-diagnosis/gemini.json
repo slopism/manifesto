@@ -1,0 +1,20 @@
+{
+    "section": "diagnosis",
+    "ranking": [
+        "B",
+        "E",
+        "A",
+        "C",
+        "D"
+    ],
+    "best": {
+        "version": "B",
+        "why": "It is the only version that advances the argument without repeating the text already established in Section I. It introduces essential new definitions ('Slop is a condition: publication without judgment') and metaphors ('Generation is weather') that deepen the diagnosis rather than merely restating the premise. It flows logically from the persona established in Section II to the environment described here."
+    },
+    "worst": {
+        "version": "D",
+        "why": "It is functionally a duplicate of Section I. It repeats the 'Gutenberg/Photography' historical analogy and the 'cost of making' thesis word-for-word, offering almost no new content for a continuation."
+    },
+    "must_survive_line": "Slop is not a medium. Slop is a condition: publication without judgment.",
+    "proposed_replacement": null
+}

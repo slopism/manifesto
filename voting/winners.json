@@ -17,5 +17,12 @@
       "points": 21
     },
     "must_survive_line": "A Slopist does not sign a prompt. A Slopist signs the cut."
+  },
+  "diagnosis": {
+    "version": "B",
+    "voice": "VOICE-Ψ",
+    "points": 25,
+    "decided_by": "vote",
+    "must_survive_line": "Slop is not a medium. Slop is a condition: publication without judgment."
   }
 }
