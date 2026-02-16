@@ -1,0 +1,20 @@
+{
+    "section": "naming",
+    "ranking": [
+        "E",
+        "C",
+        "A",
+        "B",
+        "D"
+    ],
+    "best": {
+        "version": "E",
+        "why": "It builds a complete arc from the insult to reclamation, grounding the term in contemporary culture (Word of the Year) and art history (Impressionists, Fauves), and culminates in a powerful, transformative metaphor: 'Slop is not culture's corpse. It is the compost where the new ferments.' This ties back to the manifesto's theme of abundance and judgment, and its rhythm and flow feel like a natural continuation of the opening section."
+    },
+    "worst": {
+        "version": "D",
+        "why": "It combines elements from other versions in a disjointed manner, with mixed metaphors ('spit', 'lick', 'nail', 'wear') that lack a clear progression. The confrontational ending 'and you still don’t' feels weaker than the more resonant conclusions of other versions, and the overall flow is less coherent."
+    },
+    "must_survive_line": "A Slopist does not sign a prompt. A Slopist signs the cut.",
+    "proposed_replacement": null
+}

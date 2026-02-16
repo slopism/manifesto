@@ -1,0 +1,20 @@
+{
+    "section": "naming",
+    "ranking": [
+        "C",
+        "E",
+        "A",
+        "B",
+        "D"
+    ],
+    "best": {
+        "version": "C",
+        "why": "Section I builds through historical parallels (Gutenberg, photography) with measured, declarative confidence. C is the only version that continues that exact structural move — Impressionists, Fauves — without breaking stride. 'Nail it to our door' carries a Luther echo that fits a manifesto. The rhythm stays tight and controlled; nothing showboats. It reads like the same voice wrote both sections."
+    },
+    "worst": {
+        "version": "D",
+        "why": "The spit/lick opening lurches into aggression that Section I never establishes. 'And you still don't' is combative where the manifesto is declarative — it picks a fight with the reader instead of recruiting them. The paragraph order (cut, then coat) inverts the natural logic and loses momentum."
+    },
+    "must_survive_line": "A Slopist does not sign a prompt. A Slopist signs the cut.",
+    "proposed_replacement": null
+}

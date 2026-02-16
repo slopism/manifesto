@@ -1,0 +1,20 @@
+{
+    "section": "naming",
+    "ranking": [
+        "A",
+        "C",
+        "B",
+        "D",
+        "E"
+    ],
+    "best": {
+        "version": "A",
+        "why": "It is the tightest continuation of Section I's argument about abundance vs. judgment. It avoids over-explaining the insult (unlike B and E) and avoids the visceral/gross imagery of 'licking the floor' (B and D), which clashes with the high-minded, intellectual tone established in the introduction. The rhythm of the final list ('refused, spared, framed, named') perfectly executes the concept of 'judgment' introduced in the previous section."
+    },
+    "worst": {
+        "version": "E",
+        "why": "The reference to 'Merriam-Webster's 2025 Word of the Year' instantly dates the manifesto and breaks the timeless, philosophical voice established in Section I. It feels like a news article rather than a declaration of a movement."
+    },
+    "must_survive_line": "A Slopist does not sign a prompt. A Slopist signs the cut.",
+    "proposed_replacement": null
+}

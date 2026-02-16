@@ -5,5 +5,17 @@
     "points": 25,
     "decided_by": "vote",
     "must_survive_line": "The cost of making has collapsed to zero. The cost of choosing well has not."
+  },
+  "naming": {
+    "version": "C",
+    "voice": "VOICE-Ω",
+    "points": 21,
+    "decided_by": "curator",
+    "tied_with": {
+      "version": "A",
+      "voice": "VOICE-Δ",
+      "points": 21
+    },
+    "must_survive_line": "A Slopist does not sign a prompt. A Slopist signs the cut."
   }
 }

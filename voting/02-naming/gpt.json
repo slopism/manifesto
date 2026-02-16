@@ -1,0 +1,20 @@
+{
+    "section": "naming",
+    "ranking": [
+        "A",
+        "C",
+        "D",
+        "E",
+        "B"
+    ],
+    "best": {
+        "version": "A",
+        "why": "It keeps the manifesto's clipped, declarative cadence and lands directly on the core thesis: judgment as authorship. No extra lore, no dated references, no tonal detours. It reads like the next paragraph of Section I, not a separate poem."
+    },
+    "worst": {
+        "version": "B",
+        "why": "It shifts into bodily and quasi-religious theater (vomit, holy, licking the floor) that feels out of register with the manifesto's clean, analytical force. The rhetoric becomes the point instead of the claim."
+    },
+    "must_survive_line": "A Slopist does not sign a prompt. A Slopist signs the cut: what was refused, what was spared, what was framed, what was named.",
+    "proposed_replacement": null
+}

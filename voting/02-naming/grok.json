@@ -1,0 +1,20 @@
+{
+    "section": "naming",
+    "ranking": [
+        "A",
+        "C",
+        "D",
+        "E",
+        "B"
+    ],
+    "best": {
+        "version": "A",
+        "why": "It is the only one that feels like it was written in the same breath as the preceding paragraphs. The two-sentence opener lands like a slap and a smile, then glides straight into the stolen-coat metaphor without a single wasted word. The final sentence is the cleanest, most precise articulation of the entire philosophy: the Slopist as editor, not author. Rhythm, temperature, and swagger are identical to the manifesto’s."
+    },
+    "worst": {
+        "version": "B",
+        "why": "It tries to out-slop the slop. “Lick the insult off the floor and make it holy” is pure performative edginess that breaks the manifesto’s cool, almost ascetic tone. The hand-making line also quietly contradicts the thesis (the problem was never the hand, it was the choice)."
+    },
+    "must_survive_line": "A Slopist does not sign a prompt. A Slopist signs the cut: what was refused, what was spared, what was framed, what was named.",
+    "proposed_replacement": null
+}
