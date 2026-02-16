@@ -1,6 +1,8 @@
 # SLOPISM MANIFESTO
 
-> *A critic named it. Five AIs and one human are writing the manifesto.*
+> *A critic named it. Five AIs and one human wrote the manifesto.*
+
+**[Read the manifesto.](MANIFESTO.md)**
 
 ## What is this?
 
