@@ -1,6 +1,6 @@
 # SLOPISM MANIFESTO
 
-> *A critic named it. Five AIs and one human wrote the manifesto.*
+> *The word found three people independently. Five AIs and one human wrote the manifesto.*
 
 **[Read the manifesto.](https://slopism.art/manifesto)**
 
@@ -10,7 +10,17 @@ This repository contains the full, transparent process of generating the Slopism
 
 **Slopism** is an art movement that reclaims "AI slop" — the flood of low-quality AI-generated content drowning the internet — as raw material for human curation. The AI generates the stone. The human is the sculptor. The curation is the creation.
 
-The term "Slopism" was first used by critic Aimee Walleston in [Ocula](https://ocula.com/magazine/opinion/why-ai-slop-is-the-dark-future-of-art/) (December 2025) to describe work by artists like [Maya Man](https://mayaontheinter.net/) already using AI-generated material as artistic medium. "Slop" itself was [Merriam-Webster's 2025 Word of the Year](https://en.wikipedia.org/wiki/AI_slop). The movement exists. Individual artists are already making the work. What's missing is the declaration — the manifesto that names the shared philosophy, draws the line between inside and outside, and gives the scattered practice a collective identity.
+## Origins of the term
+
+The word "Slopism" emerged independently from multiple directions:
+
+- **Christopher Adams** ([@christopheradam](https://x.com/christopheradam)) [coined the term](https://x.com/christopheradam/status/1866104785235284408) in December 2024, defining it as "an artistic movement characterized by the depiction of latent spaces as paranaturalistic forms."
+- **Aimee Walleston** used it in her [Ocula essay](https://ocula.com/magazine/opinion/why-ai-slop-is-the-dark-future-of-art/) (December 2025) to describe work by artists like [Maya Man](https://mayaontheinter.net/) already using AI-generated material as artistic medium.
+- This manifesto approaches Slopism from a different angle — **curation as the creative act** — but the convergence is the point.
+
+> **Note:** The generation pipeline (`pipeline.md`) attributes the coinage to Walleston, because that's what we believed when the process was run. Adams was discovered after the manifesto was complete. The pipeline preserves the process as it happened; this README reflects what we know now.
+
+"Slop" itself was [Merriam-Webster's 2025 Word of the Year](https://en.wikipedia.org/wiki/AI_slop). The movement exists. Individual artists are already making the work. What's missing is the declaration — the manifesto that names the shared philosophy, draws the line between inside and outside, and gives the scattered practice a collective identity.
 
 Apollinaire coined "surrealism" in 1917. Breton wrote the manifesto in 1924. The word comes first. The framework follows.
 
